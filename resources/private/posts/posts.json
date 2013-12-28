@@ -1,0 +1,28 @@
+{
+	"How to create new blog post" : [
+		{"1" : "Create a markdown file with blog post in this directory. See test-post.md as an example"},
+		{"2" : "Add an entry into post section here"},
+		{"3" : "You need to enter blog title, created date, file name and tags for the blog post"},
+
+		{"4" : "You need to do a one time set up of blog section in this file"},
+		{"5" : "title - title of the blog"},
+		{"6" : "description - Your blog description"},
+		{"7" : "domain - root domain where the blog is hosted"},
+		{"8" : "Author - Authors name"},
+		{"9" : "reload-password - This blog engine uses lot of in memeory caching to improve performace, you can use reload service with this password to force clear cache"},
+		{"10" : "disqus-short-name - (optional) if you want to setup disqus comments for your blog, you need to create a disqus account first and create a shortname there"}
+	],
+
+	"posts" : [
+		{"title": "My first post", "created": "2013-07-28", "file": "test-post.md", "tags" : ["test","clojure","blog"]}
+	],
+
+	"blog" : {
+		"title" : "Blogure",
+		"description" : "A clojure blog engine",
+		"domain" : "http://mydomain.com",
+		"author" : "Name",
+		"reload-password" : "reload123!@#now",
+		"disqus-short-name" : "myblog"
+	}
+}

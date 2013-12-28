@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="/style.css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="title"><a class="invert" href="/">{TITLE}</a></div>
+			<div id="pages"><a class="invert" href="/about">About/Contact</a> &#149; <a class="invert" href="/archive">Archive</a> &#149; <a class="invert" href="/rss">RSS</a></div>
+			<hr/>
+			<div id="article">
